@@ -3,8 +3,15 @@ babel==2.16.0
 Django==4.2
 django-money==3.5.3
 djangorestframework==3.15.2
+drf-yasg==1.21.8
+inflection==0.5.1
+isort==5.13.2
+packaging==24.1
 py-moneyed==3.0
+python-dotenv==0.21.1
+pytz==2024.2
+PyYAML==6.0.2
 sqlparse==0.5.1
 typing_extensions==4.12.2
 tzdata==2024.2
-python-dotenv==0.21.1
+uritemplate==4.1.1
