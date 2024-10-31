@@ -40,18 +40,31 @@ py manage.py runserver
 # API Эндпоинты
 ## Продукты
 GET    /api/products/                  — Получить список всех продуктов
+
 POST   /api/products/                  — Создать новый продукт
+
 GET    /api/products/{id}/             — Получить продукт по ID
+
 PUT    /api/products/{id}/             — Обновить продукт по ID
+
 PATCH  /api/products/{id}/             — Частичное обновление продукта по ID
+
 DELETE /api/products/{id}/             — Удалить продукт по ID
+
 POST   /api/products/add_by_barcode/   — Добавить товар по штрихкоду
+
 GET    /api/products/{id}/subtract/    — Уменьшить количество товара по ID
+
 
 ## Типы
 GET    /api/types/                     — Получить список всех типов
+
 POST   /api/types/                     — Создать новый тип
+
 GET    /api/types/{id}/                — Получить тип по ID
+
 PUT    /api/types/{id}/                — Обновить тип по ID
+
 PATCH  /api/types/{id}/                — Частичное обновление типа по ID
+
 DELETE /api/types/{id}/                — Удалить тип по ID
